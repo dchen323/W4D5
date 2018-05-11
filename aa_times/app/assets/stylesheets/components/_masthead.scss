@@ -25,6 +25,10 @@
 	color: $dark-gray;
 }
 
+.language-nav a:hover{
+  text-decoration: underline;
+}
+
 .language-nav ul {
 	display: flex;
 }
@@ -56,11 +60,15 @@
 }
 
 .masthead-links button:hover {
+  text-decoration: underline;
+}
+
+.masthead-links div:hover {
 	background-color: $lightest-gray;
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
