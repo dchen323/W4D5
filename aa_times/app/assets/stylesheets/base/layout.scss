@@ -14,12 +14,12 @@ body {
 }
 button {
 	background-color: $dark-blue;
-	border-color: $dark-gray;  
+	border-color: $dark-gray;
 	color: white;
 	font-weight: bold;
 	padding: 3px;
 	border-radius: 2px;
-	transition: 1s;  
+	transition: 1s;
 	font-family: $sans-serif;
 	text-transform: uppercase;
 	font-size: 8px;
@@ -49,4 +49,8 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.hidden {
+  display: none;
 }
